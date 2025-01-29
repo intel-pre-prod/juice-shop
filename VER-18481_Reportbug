@@ -11,3 +11,13 @@ function PrimeCheck(candidate){
       isPrime = true;
     }
   }
+ if(isPrime){
+    primeArray.push(candidate);
+  }
+  return primeArray;
+}
+/*Write the code that runs the above until the
+length of the array equals the number of primes
+desired*/
+
+var numPrimes = prompt("How many primes?");
